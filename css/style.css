@@ -59,6 +59,23 @@ textarea {
 	text-transform: uppercase;
 }
 
+.table thead th {line-height: 2;}
+.sorting_desc:before,
+.sorting_asc:before {
+	display: inline-block;
+	float: right;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+}
+.sorting_desc:before {
+	content: "\f0dd";
+}
+
+.sorting_asc:before {
+	content: "\f0de";
+}
 
 
 
